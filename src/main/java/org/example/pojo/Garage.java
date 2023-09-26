@@ -1,15 +1,21 @@
 package org.example.pojo;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Garage {
 
-    String nom;
-    String adresse;
-    Integer nbPlaceVoiture;
+    private String nom;
+    private String adresse;
+    private Integer nbPlaceVoiture;
+
+    List<Voiture> voitureList;
 
     public Garage(String nom, String adresse, Integer nbPlaceVoiture) {
         this.nom = nom;
         this.adresse = adresse;
         this.nbPlaceVoiture = nbPlaceVoiture;
+        voitureList =new ArrayList<>();
     }
 
     public Garage() {

@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1892fd66-1f64-4326-9c34-d403f3c03862" name="Changes" comment="commit exo java 5/10">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pojo/Garage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pojo/Carburant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pojo/Marque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pojo/Modele.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pojo/Motorisation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pojo/Voiture.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pojo/Garage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pojo/Garage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -46,6 +51,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.pojo" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
@@ -76,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695719542806</updated>
-      <workItem from="1695719544024" duration="3518000" />
+      <workItem from="1695719544024" duration="6718000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -86,7 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695719616086</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit exo java 5/10">
+      <option name="closed" value="true" />
+      <created>1695731757594</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695731757594</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

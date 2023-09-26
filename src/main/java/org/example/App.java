@@ -11,6 +11,6 @@ public class App
     public static void main( String[] args )
     {
         Garage garage = new Garage("Chez Michel", "ventabren", 12);
-        System.out.println(garage);
+        System.out.println(garage.getNom());
     }
 }
