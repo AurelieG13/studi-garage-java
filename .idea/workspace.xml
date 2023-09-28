@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1892fd66-1f64-4326-9c34-d403f3c03862" name="Changes" comment="commit exo java 7/10 partie 2">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/MotorisationDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/impl/MotorisationDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/database/database.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pojo/Hangar.java" afterDir="false" />
+    <list default="true" id="1892fd66-1f64-4326-9c34-d403f3c03862" name="Changes" comment="commit exo java 8/10">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/database/SingletonConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exceptions/InvalidPlaceGarageException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +111,7 @@
       <option name="presentableId" value="Default" />
       <updated>1695719542806</updated>
       <workItem from="1695719544024" duration="7919000" />
-      <workItem from="1695881273384" duration="6920000" />
+      <workItem from="1695881273384" duration="10350000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -155,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695884703946</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commit exo java 8/10">
+      <option name="closed" value="true" />
+      <created>1695889086972</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1695889086972</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +173,7 @@
     <MESSAGE value="commit exo java 6/10" />
     <MESSAGE value="commit exo java 7/10 partie 1" />
     <MESSAGE value="commit exo java 7/10 partie 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit exo java 7/10 partie 2" />
+    <MESSAGE value="commit exo java 8/10" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit exo java 8/10" />
   </component>
 </project>

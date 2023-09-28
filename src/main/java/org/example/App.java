@@ -2,6 +2,7 @@ package org.example;
 
 import org.example.dao.MotorisationDao;
 import org.example.dao.impl.MotorisationDaoImpl;
+import org.example.exceptions.InvalidPlaceGarageException;
 import org.example.pojo.*;
 
 import java.util.InputMismatchException;
@@ -13,10 +14,15 @@ import java.util.Scanner;
  */
 public class App 
 {
-    public static void main( String[] args )
-    {
+    public static void main( String[] args ) throws InvalidPlaceGarageException {
 
-        //Garage monGarage = createGarage();
+        try{
+            Garage monGarage = createGarage();
+        }catch(InvalidPlaceGarageException e) {
+            System.out.println(e.getMessage());
+            System.exit(0);
+        }
+
         //Garage monHangar = new Hangar("totohangar", "bla", 3);
         //System.out.println(monHangar);
         //System.out.println(monGarage);
@@ -26,6 +32,7 @@ public class App
 
         //Marque marque = new Marque("test");
 
+        /*
         MotorisationDao motorisationDao = new MotorisationDaoImpl();
 
         // création d'un moteur
@@ -40,10 +47,10 @@ public class App
 
         // récupération des moteurs
         System.out.println(motorisationDao.getAllMotorisation());
-
+        */
     }
 
-    public static Garage createGarage() {
+    public static Garage createGarage() throws InvalidPlaceGarageException{
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Veuillez entrer le nom d'un garage :");
@@ -57,6 +64,10 @@ public class App
             try {
                 System.out.println("Veuillez entrer le nombre de place dans votre garage :");
                 placeGarage = sc.nextInt();
+
+                if(placeGarage <= 0) {
+                    throw new InvalidPlaceGarageException("Vous avez entré un nombre de place inférieur à 0");
+                }
                 verif = true;
             } catch (InputMismatchException e) {
                 System.out.println("Ceci n'est pas un nombre, rééssayez !");
